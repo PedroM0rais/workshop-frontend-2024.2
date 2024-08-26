@@ -23,7 +23,7 @@ export default function Card() {
                 console.error('Fetch error:', error);
             });
     }, []);
-
+git 
     if (data === null) {
         return <div>Loading...</div>;
     }
